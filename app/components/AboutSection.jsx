@@ -5,7 +5,7 @@ import TabButton from './TabButton';
 const TAB_DATA = [
     {
       title: "Skills",
-      id: "skills",
+      id: "skills", 
       content: (
         <ul className="list-disc pl-2">
           <li>HTML</li>
