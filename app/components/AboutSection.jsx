@@ -33,8 +33,8 @@ const TAB_DATA = [
       ),
     },
     {
-      title: "Certification",
-      id: "certification",
+      title: "Achievements",
+      id: "achievements",
       content: (
         <ul className="list-disc pl-2">
           <li>Solved 600+ DSA Problems</li>
@@ -66,7 +66,7 @@ const AboutSection = () => {
                 <div className='flex flex-row  justify-start mt-8'>
                     <TabButton selectTab={()=>handleTabChange("skills")} active={tab==="skills"}>{" "}Skills{" "}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("education")} active={tab==="education"}>{" "}Education{" "}</TabButton>
-                    <TabButton selectTab={()=>handleTabChange("certifications")} active={tab==="certifications"}>{" "}Achievements{" "}</TabButton>
+                    <TabButton selectTab={()=>handleTabChange("achievements")} active={tab==="achievements"}>{" "}Achievements{" "}</TabButton>
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t)=>t.id===tab).content}</div>
             </div>
