@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
+    id: 1, 
     title: "Tic Tac Toe website",
     description:"(40-50s to open, for first time as deployed on render)",
     image: "/images/projects/project1.png",
